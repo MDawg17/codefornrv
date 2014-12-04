@@ -1,4 +1,3 @@
-baseurl: /codefornrv
 permalink: /:categories/:title/
 markdown: kramdown
 prose:
