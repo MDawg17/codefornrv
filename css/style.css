@@ -59,11 +59,21 @@ table h3 {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  background-image: url(../images/sunset.jpg);
+  background-image: url(../images/new_river_virginia.jpg);
   background-size: cover;
   background-position: center bottom;
   margin-bottom: 60px;
   color: #fff;
+}
+.carousel-background-image-attribute {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    z-index: 20;
+    font-size: 11px;
+}
+.carousel-background-image-attribute a {
+    color: #666;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
