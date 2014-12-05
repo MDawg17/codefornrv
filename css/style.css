@@ -293,6 +293,13 @@ table h3 {
   }
 }
 
+/* Spacing buttons */
+@media (max-width: 991px) {
+  .btn2 {
+    margin-top: 5px;
+  }
+}
+
 .nowrap { white-space:nowrap; }
 
 #recent-event { margin: 10px 0 0 0; }
