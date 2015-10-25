@@ -1,0 +1,3 @@
+people = [
+  {name:'Ben Schoenfeld'}
+];
