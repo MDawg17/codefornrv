@@ -17,8 +17,16 @@ excerpt: The people that make our projects possible
         {% for member in site.data.members %}
           <tr>
             <td>{{ member.name }}</td>
-            <td>{{ member.github }}</td>
-            <td>{{ member.openstreetmap }}</td>
+            <td>
+              <a href="https://github.com/{{ member.github }}">
+                {{ member.github }}
+              </a>
+            </td>
+            <td>
+              <a href="https://www.openstreetmap.org/user/{{ member.openstreetmap }}">
+                {{ member.openstreetmap }}
+              </a>
+            </td>
           </tr>
         {% endfor %}
       </tbody>
